@@ -1,0 +1,43 @@
+colors
+:root {
+  --accent: #482AD2;
+  --separator: #3c3c43;
+
+  --system-background: #ffffff;
+  --secondary-system-background: #f2f2f7; 
+
+  --system-grouped-background: #f2f2f7;
+  --secondary-grouped-system-background: #ffffff;
+
+  --label: #000000;
+  --secondary-label: rgba(60, 60, 67, 0.6);
+  --tertiary-label: rgba(60, 60, 67, 0.3);
+  --quaternary-label: rgba(60, 60, 67, 0.18);
+
+  --border-radius: 12px;
+  --button-border: 14px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent: #482AD2;
+    --separator: #ebebf5;
+
+    --system-background: #000000;
+    --secondary-system-background: #1c1c1e;
+
+    --system-grouped-background: #000000;
+    --secondary-grouped-system-background: #1c1c1e;
+
+    --label: #ffffff;
+    --secondary-label: rgba(235, 235, 245, 0.6);
+    --tertiary-label: rgba(235, 235, 245, 0.3);
+    --quaternary-label: rgba(235, 235, 245, 0.18);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
